@@ -30,6 +30,7 @@ h5{
     border-radius: 10px;
     color: black;
     margin: 10px;
+    font-size: 20px;
     width: 50%;
 }
 h5 b{
@@ -55,4 +56,21 @@ li{
 .row{
     display: flex;
     justify-content: center;
+}
+#result{
+    color: red;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.cc_footer{
+    width: 100%;
+    background: white;
+    margin-top: 10px;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    line-height: 50px;
+    text-align: center;
+    box-shadow: 1px 1px 38px grey;
+    font-family: cursive;
 }
